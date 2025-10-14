@@ -1,0 +1,392 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  background-color: #fafafa;
+
+}
+
+
+h1 {
+  text-align: center;
+
+}
+.titulo1{
+
+      font-weight: bold;
+      font-size: 2em;
+      background-color: #c25e00;
+      color: white;
+      text-align: center;
+      width: 1500px;
+      border-radius: 40px;
+      display: inline-block;
+      margin-right: 2000px;
+ 
+}
+.actual{
+  
+        font-weight: bold;
+      font-size: 2em;
+      background-color: #007bc2;
+      color: white;
+width: 500px;
+      text-align: center;
+display: inline-block;
+      border-radius: 40px;
+      margin-left: 400px;
+
+}
+
+
+.posi{
+  margin-top: 20px;
+}
+.cuadrado{
+  margin-left: 20%;
+  text-align: center;
+  position: absolute;
+  width: 8%;
+  height: 33%;
+
+}
+
+.nua{
+  position: absolute;
+  margin-top: 0.4%;
+  margin-left: 14%
+}
+.sb{
+    position: absolute;
+  margin-top: 3%;
+  margin-left: 16.5%;
+}
+.ms{
+      position: absolute;
+  margin-top: 0.4%;
+  margin-left: 28.2%;
+}
+.esox{
+        position: absolute;
+  margin-top: 1.8%;
+  margin-left: 28.2%;
+}
+.dencidad{
+          position: absolute;
+  margin-top: 2.7%;
+  margin-left: 28.2%;
+}
+.lectro{
+            position: absolute;
+  margin-top: 3.7%;
+  margin-left:28.2%;
+}
+.pf{
+              position: absolute;
+  margin-top: 4.7%;
+  margin-left: 28.2%;
+}
+.peb{
+                position: absolute;
+  margin-top: 5.7%;
+  margin-left: 28.2%;
+}
+.nm{
+                position: absolute;
+  margin-top: 6.8%;
+  margin-left: 16.8%;
+}
+
+
+
+    .tabla-clasificacion {
+
+      padding: 12px;
+      background-color: white;
+      width: 50px;
+    }
+
+    .seccion {
+      margin-bottom: 20px;
+    }
+
+    .titulo {
+      font-weight: bold;
+      font-size: 1.2em;
+      background-color: #0077c2;
+      color: white;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      margin: 4px 0;
+    }
+
+    .color {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border: 1px solid #aaa;
+    }
+
+    /* Colores según la imagen */
+    .actinidos       { background-color: #e66bd2; }
+    .lantanidos      { background-color: #c55dbf; }
+    .metaloides      { background-color: #786e3c; }
+    .otros-metales   { background-color: #6ca745; }
+    .transicion      { background-color: #42a6de; }
+    .alcalinoterreos { background-color: #f88e5b; }
+    .alcalinos       { background-color: #f25e4f; }
+
+    .no-metales      { background-color: #6d3d9c; }
+    .halogenos       { background-color: #3069ad; }
+    .gases-nobles    { background-color: #a77dc2; }
+
+.tabla_color{
+  position: absolute;
+  margin-left:41%;
+}
+.tabla_2{
+  position: absolute;
+  margin-top: 0.8%;
+  margin-left: 48%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.number1 {
+
+  top: 2px;
+  text-align: left;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+.masa_atomica1{
+position: absolute;
+
+top: 1px;
+
+  font-size: 1.5em;
+  text-align: right;
+    color: #ffffff;
+
+}
+.symbol1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-left: 12px;
+  margin-top: 3px;
+  text-align: left;
+    color: #ffffff;
+}
+
+.element1  {
+  
+  
+  font-size: 1.5em;
+  margin-top: 1px;
+    color: #ffffff;
+}
+
+.estado_oxidacion1{
+    font-size: 1.1em;
+  text-align: right;
+    color: #ffffff;
+    margin-top: 7px;
+    margin-right:5px;
+
+}
+.densidad1{
+    font-size: 1.1em;
+  text-align: right;
+    color: #ffffff;
+    margin-top: 30px;
+        margin-right:5px;
+
+}
+.electronegatividad1{
+    font-size: 1.1em;
+  text-align: right;
+    color: #ffffff;
+    margin-left: 180px;
+}
+
+.punto_fusion1, .punto_ebullicion1{
+font-size: 1.1em;
+text-align: right;
+}
+.nombre1{
+  font-size: 1.3em;
+}
+.cosas31{
+
+  display: grid;
+  grid-template-columns: 3%,3%,;
+  grid-template-rows:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.periodic-table {
+
+  display: grid;
+  grid-template-rows: repeat(10);
+  grid-template-columns: repeat(18,);
+  gap: 4px;
+  width: 120px;
+  height: 120px;
+  margin-top: 200px;
+}
+
+.element, .blank {
+  border: 0.5px solid #999;
+  padding: 8px;
+  text-align: center;
+  background-color: #f0f0f0;
+  position: relative;
+  width: 80px;
+  height: 80px;
+
+}
+
+.blank {
+  background: transparent;
+  border: none;
+}
+
+ .number {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 0.8em;
+  color: #ffffff;
+}
+
+.symbol {
+  font-size: 40px;
+  font-weight: bold;
+
+  margin-top: 3px;
+  text-align: left;
+    color: #ffffff;
+}
+
+.element  {
+  
+  
+  font-size: 0.8em;
+  margin-top: 1px;
+    color: #ffffff;
+}
+.masa_atomica{
+position: absolute;
+
+  top: 2%;
+
+  font-size: 0.8em;
+  text-align: right;
+    color: #ffffff;
+
+}
+.estado_oxidacion{
+  font-size: 0.8em;
+  text-align: right;
+    color: #ffffff;
+    margin-top: 7px;
+
+}
+.densidad{
+    font-size: 0.8em;
+  text-align: right;
+    color: #ffffff;
+    margin-top: 12px;
+
+}
+.electronegatividad{
+      font-size: 0.8em;
+  text-align: right;
+    color: #ffffff;
+    margin-left: 60px;
+}
+
+.punto_fusion, .punto_ebullicion{
+font-size: 0.8em;
+text-align: right;
+}
+
+
+#no_metales{
+background-color: #460A94;
+}
+#metales_alcalinos{
+  background-color: chocolate;
+}
+#metales_alcalinoterreos{
+  background-color: crimson;
+}
+#metales_transicion{
+  background-color: aqua;
+}
+#otros_metales{
+  background-color: limegreen;
+}
+#metaloides{
+background-color: chartreuse;
+}
+#gasesnobles{
+  background-color: darkblue;
+}
+#halogenos{
+  background-color: cornflowerblue;
+}
+#lantanidos{
+  background-color: #380F80;
+}
+#actinidos{
+  background-color: rgb(180, 0, 117);
+}
+.cosas3{
+
+  display: grid;
+  grid-template-columns: 3%,3%,;
+  grid-template-rows:5px;
+}
