@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Tercera Ley de Newton</title>
+</head>
+<body>
+    <div class="container mt-4" id="container">
+        <div class="row justify-content-center">
+             
+
+        
+                <div class="mb-3">
+                    <label for="force0" class="form-label">Fuerza aplicada (N)</label>
+                    <input type="number" class="form-control" id="force0" placeholder="Ingrese fuerza (N)">
+                </div>
+
+               
+                <div class="mb-3" id="forceContainer"></div>
+
+              
+                <div class="alert alert-primary" id="alert" role="alert"></div>
+
+          
+                <button id="btn" class="btn btn-primary w-100" onclick="calcNewtonLaw()">Calcular Reacción</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calculo_de_accion_reaccion.js"></script>
+</body>
+</html>

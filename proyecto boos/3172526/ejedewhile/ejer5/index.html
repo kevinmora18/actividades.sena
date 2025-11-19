@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Trabajo Mecánico</title>
+</head>
+<body>
+    <div class="container mt-4" id="container">
+        <div class="row justify-content-center">
+
+             
+                <div class="mb-3">
+                    <label for="force0" class="form-label">Fuerza (N)</label>
+                    <input type="number" class="form-control" id="force0" placeholder="Ingrese la fuerza (N)">
+                </div>
+
+             
+                <div class="mb-3">
+                    <label for="distance0" class="form-label">Distancia (m)</label>
+                    <input type="number" class="form-control" id="distance0" placeholder="Ingrese la distancia (m)">
+                </div>
+
+
+                <div class="mb-3" id="forceContainer"></div>
+                <div class="mb-3" id="distanceContainer"></div>
+
+
+                <div class="alert alert-primary" id="alert" role="alert"></div>
+
+                <button id="btn" class="btn btn-primary w-100" onclick="calcWork()">Calcular Trabajo</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/hallar_fuerzamecanica.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Cálculo de Fuerza Resultante</title>
+
+    
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row" id="row">
+            <div class="col" id="col">
+
+
+                <div class="mb-3">
+                    <label for="mass" class="form-label">Masa (kg)</label>
+                    <input type="number" class="form-control" id="mass" placeholder="Ejemplo: 10">
+                </div>
+
+                <div class="mb-3">
+                    <label for="acceleration" class="form-label">Aceleración (m/s²)</label>
+                    <input type="number" class="form-control" id="acceleration" placeholder="Ejemplo: 5">
+                </div>
+
+                <div class="mb-3" id="results"></div>
+                <button id="btn" class="btn btn-primary w-100" onclick="calcularFuerza()">
+                    Calcular Fuerza (con ciclo for)
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="js/calcular_fuerza_re.js"></script>
+</body>
+</html>

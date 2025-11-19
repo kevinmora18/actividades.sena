@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Tensión en una Cuerda</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h4 class="mb-3">Ejercicio 5: Cálculo de la Tensión en una Cuerda</h4>
+
+                <div class="mb-3">
+                    <label for="numObjetos" class="form-label">Cantidad de objetos</label>
+                    <input type="number" class="form-control" id="numObjetos" placeholder="Ejemplo: 3">
+                </div>
+
+                <div class="mb-3" id="entradas"></div>
+
+                <div class="mb-3" id="resultado"></div>
+
+                <button id="btnGenerar" class="btn btn-secondary mb-2" onclick="generarCampos()">Generar campos de masa</button>
+                <button id="btnCalcular" class="btn btn-primary" onclick="calcularTension()">Calcular tensiones</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/tencion_de_cuerda.js"></script>
+</body>
+</html>

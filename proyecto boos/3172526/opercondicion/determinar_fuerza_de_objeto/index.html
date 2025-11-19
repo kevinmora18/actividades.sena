@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="js/ejercisio5.js"></script>
+</head>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<script src="bootstrap/js/bootstrap.js"></script>
+
+<body>
+        <div class="container" id="container">
+                <div class="row" id="row">
+                        <div class="col" id="col">
+                                <div class="mb-3">
+                                        <label for="mass" class="form-label"> mass</label>
+                                        <input type="number" class="form-control" id="mass"
+                                                placeholder="Ingrese el peso de la masss">
+                                </div>
+                                <div class="mb-3">
+                                        <label for="acceleration" class="form-label">acceleration</label>
+                                        <input type="number" class="form-control" id="acceleration"
+                                                placeholder="Ingrese el peso de la acceleration">
+                                </div>
+
+
+
+
+                        </div>
+                        <div id="resul" class="alert alert-primary" role="alert">
+                        </div>
+                        <button id="resul" class="btn btn-primary" onclick="calcularFuerza()">invocar</button>

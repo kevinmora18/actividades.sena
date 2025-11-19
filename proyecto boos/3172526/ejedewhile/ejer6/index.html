@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Energía Potencial Gravitatoria</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+         
+       
+                <div class="mb-3">
+                    <label for="mass0" class="form-label">Masa (kg)</label>
+                    <input type="number" class="form-control" id="mass0" placeholder="Ingrese la masa (kg)">
+                </div>
+
+      
+                <div class="mb-3">
+                    <label for="height0" class="form-label">Altura (m)</label>
+                    <input type="number" class="form-control" id="height0" placeholder="Ingrese la altura (m)">
+                </div>
+
+              
+                <div class="mb-3" id="massContainer"></div>
+                <div class="mb-3" id="heightContainer"></div>
+
+                <div class="alert alert-primary" id="alert" role="alert"></div>
+
+                <button id="btn" class="btn btn-primary w-100" onclick="calcEpg()">Calcular Energía Potencial</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/energia_potencial.js"></script>
+</body>
+</html>

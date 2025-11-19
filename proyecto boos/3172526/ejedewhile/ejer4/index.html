@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Primera Ley de Newton</title>
+</head>
+<body>
+    <div class="container mt-4" id="container">
+
+                    
+
+
+                <div class="mb-3">
+                    <label for="mass" class="form-label">Masa (kg)</label>
+                    <input type="number" class="form-control" id="mass" placeholder="Ingrese la masa del objeto">
+                </div>
+
+                <div class="mb-3">
+                    <label for="force0" class="form-label">Fuerza aplicada (N)</label>
+                    <input type="number" class="form-control" id="force0" placeholder="Ingrese fuerza (N)">
+                </div>
+
+
+                <div class="mb-3" id="forceContainer"></div>
+
+
+                <div class="alert alert-primary" id="alert" role="alert"></div>
+
+                <button id="btn" class="btn btn-primary " onclick="simulateMotion()">Simular Movimiento</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/simulacion_de_movimiento.js"></script>
+</body>
+</html>

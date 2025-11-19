@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Plano Inclinado</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h4 class="mb-3">Ejercicio 6: Fuerza Paralela en un Plano Inclinado</h4>
+
+                <div class="mb-3">
+                    <label for="masa" class="form-label">Masa del objeto (kg)</label>
+                    <input type="number" class="form-control" id="masa" placeholder="Ejemplo: 10">
+                </div>
+
+                <div class="mb-3">
+                    <label for="anguloInicio" class="form-label">Ángulo inicial (°)</label>
+                    <input type="number" class="form-control" id="anguloInicio" placeholder="Ejemplo: 10">
+                </div>
+
+                <div class="mb-3">
+                    <label for="anguloFin" class="form-label">Ángulo final (°)</label>
+                    <input type="number" class="form-control" id="anguloFin" placeholder="Ejemplo: 45">
+                </div>
+
+                <div class="mb-3">
+                    <label for="paso" class="form-label">Incremento por ciclo (°)</label>
+                    <input type="number" class="form-control" id="paso" placeholder="Ejemplo: 5">
+                </div>
+
+                <div class="mb-3" id="resultados"></div>
+
+                <button id="btn" class="btn btn-primary" onclick="calcularFuerzaParalela()">Calcular fuerzas</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/plano_inclinado.js"></script>
+</body>
+</html>

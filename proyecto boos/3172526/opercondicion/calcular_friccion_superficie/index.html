@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/ejersicio7.js"></script>
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+        <div id="container" class="container">
+                <div id="row" class="row">
+                        <div id="col" class="col">
+                                <div class="mb-3">
+                                        <label for="massOne" class="form-label">masa de odjeto</label>
+                                        <input type="number" class="form-control" id="masa"
+                                                placeholder="Ingrese la masa del objeto (kg):">
+                                </div>
+                                <div class="mb-3">
+                                        <label for="coeficiente" class="form-label">coeficienteFriccion</label>
+                                        <input type="number" class="form-control" id="mu"
+                                                placeholder="Ingrese el coeficiente de friccion (μ):">
+                                </div>
+                                <div class="mb-3">
+                                        <label for="aceleracionGravitatoria" class="form-label">aceleracionGravitatoria</label>
+                                        <input type="number" class="form-control" id="gravedad"
+                                                placeholder="Ingrese la aceleración gravitacional (m/s²):">
+                                </div>
+                                <div id="resulF" class="alert alert-primary" role="alert">
+                                        la fuerza de friccion es:
+                                </div>
+                                <button id="resulF" class="btn btn-primary" onclick="comparar ()">Calcular la fuerza de friccion</button>
+                                
+                                <div id="resulN" class="alert alert-primary" role="alert">
+                                        la fuerza normal es:
+                                </div>
+                                <button id="resulN" class="btn btn-primary" onclick="operation()">Calcular fuerza normal</button>
+                        </div>
+                </div>
+</body>
+
+</html>

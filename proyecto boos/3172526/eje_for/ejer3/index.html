@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Peso en Diferentes Planetas</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h4 class="mb-3">Ejercicio 3: Cálculo del Peso en Diferentes Planetas</h4>
+
+                <div class="mb-3">
+                    <label for="masa" class="form-label">Masa del objeto (kg)</label>
+                    <input type="number" class="form-control" id="masa" placeholder="Ingresa la masa en kg">
+                </div>
+
+                <div class="mb-3">
+                    <label for="planeta" class="form-label">Selecciona un planeta</label>
+                    <select id="planeta" class="form-select">
+                        <option value="">-- Elige un planeta --</option>
+                        <option value="tierra">Tierra (9.8 m/s²)</option>
+                        <option value="marte">Marte (3.7 m/s²)</option>
+                        <option value="jupiter">Júpiter (24.8 m/s²)</option>
+                        <option value="luna">Luna (1.6 m/s²)</option>
+                    </select>
+                </div>
+
+                <div class="mb-3" id="resultado"></div>
+
+                <button id="btn" class="btn btn-primary" onclick="calcularPesoPlaneta()">Calcular peso</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/peso_diferentes_planetas.js"></script>
+</body>
+</html>

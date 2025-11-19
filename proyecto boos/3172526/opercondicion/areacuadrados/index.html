@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title> area de cuadrados</title>
+       <link rel="stylesheet" href="css/style.css">
+       <script src="js/ejercisio1.js" defer></script>
+
+       <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+       <script src="bootstrap/js/bootstrap.js" defer></script>
+</head>
+
+<body>
+       <div id="container" class="container">
+              <div id="row" class="row">
+                     <div id="col" class="col">
+                            <div class="mb-3">
+                                   <label for="noteOne" class="form-label">Primer area del cuadrado</label> 
+                                   <input type="number" class="form-control" id="noteOne"
+                                          placeholder="Ingrese el lado del cuadrado">
+                            </div>
+                            <div class="mb-3">
+                                   <label for="noteTwo" class="form-label">Segundo area del cuadrado</label>
+                                   <input type="number" class="form-control" id="noteTwo"
+                                          placeholder="Ingrese el lado del cuadrado">
+                            </div>
+                            <div class="mb-3">
+                                   <label for="noteThree" class="form-label">Tercera area del cuadrado</label>
+                                   <input type="number" class="form-control" id="noteThree"
+                                          placeholder="Ingrese el lado del cuadrado">
+                            </div>
+                            <div id="result" class="alert alert-primary" role="alert">
+                                   El area del cuadrado es:
+                            </div>
+                            <button id="calcular" class="btn btn-primary" onclick="average()">Calcular Area</button>
+                     </div>
+              </div>
+</body>
+
+</html>

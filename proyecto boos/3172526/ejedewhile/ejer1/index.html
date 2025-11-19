@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <title>Force</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <div class="mb-3">
+                    <label for="mass" class="form-label">Mass</label>
+                    <input type="number" class="form-control" id="mass">
+                </div>
+                <div class="mb-3">
+                    <label for="acceleration" class="form-label">Acceleration</label>
+                    <input type="number" class="form-control" id="acceleration">
+                </div>
+                <div class="mb-3" id="newMass"></div>
+                <div class="mb-3" id="newAcceleration"></div>
+                <div class="alert alert-primary" id="alert" role="alert"></div>
+                <button id="btn" class="btn btn-primary" onclick="readMassAcceleration()">Leer masa y aceleration</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calculo_fuerza.js"></script>
+</body>
+</html>
